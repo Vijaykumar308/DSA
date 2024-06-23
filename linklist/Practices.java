@@ -64,7 +64,7 @@ class LL {
             System.out.print(temp.data + "->");
             temp = temp.next;
         }
-        System.out.println("null");  
+        System.out.println("null");   
     }
 }
 
@@ -76,7 +76,7 @@ public class Practices {
         list.insertAtLast(200);  
         list.insertAtLast(250); 
         list.display();  
-        list.insertAtPos(5, 550); 
+        list.insertAtPos(3, 550); 
         list.display();       
     }
 }
