@@ -26,7 +26,7 @@ public class MergeSort {
 
         int i = 0;
         int j = 0;
-        int k = 0;
+        int k = 0; 
 
         while (i < first.length && j < second.length) {
             if(first[i] < second[j]) {
