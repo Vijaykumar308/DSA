@@ -6,7 +6,7 @@ console.log("=== Binary Tree & BST Example ===");
 console.log("\nBuilding Binary Tree from [1, 2, 3, null, 4, 5, 6]:");
 const tree = BinaryTree.fromArray([1, 2, 3, null, 4, 5, 6]);
 
-console.log("Visual representation (rotated 90 deg left):");
+console.log("Visual representation (top-down):");
 tree.prettyPrint();
 
 // 2. Getting size, height, and balanced status
