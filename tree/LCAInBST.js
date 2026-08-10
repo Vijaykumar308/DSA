@@ -10,17 +10,21 @@ function BST(root, p, q) {
     function lca(root, p, q) {
         if(root === null) return;
         
+        // root is one of them; root can be a parent of itself;
         if(root.val === p || root.val === q) return root.val;
         
+        // root is in bettwen; 
         if(root.val > p && (root.val < q) && ans === null) {
             ans = root.val;
             return;
         }
         
+        // root is greater than both node;
         if(root.val > p && root.val > q) {
             lca(root.left, p, q);
         }
 
+        // root is lesser than both node;
         if(root.val < p && root.val < q) {
             lca(root.right, p, q);
         }
