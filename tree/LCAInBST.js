@@ -35,5 +35,6 @@ function BST(root, p, q) {
     return ans;
 }
 
-const ans = BST(tree.root, 2, 7);
+const ans = BST(tree.root, 2, 12);
+
 console.log(ans);
