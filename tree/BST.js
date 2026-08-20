@@ -17,5 +17,5 @@ function BST(root, k) {
     return null;
 }
 
-const ans = BST(tree.root, 7);
+const ans = BST(tree.root, 10);
 console.log(ans);
