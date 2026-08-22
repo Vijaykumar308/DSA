@@ -14,7 +14,7 @@ while(q.length > 0) {
     let level = [];
 
     for(let i = 0; i < size; i++) {
-        let node = q.shift(); // remove from  the queue;
+        let node = q.shift(); // remove from the queue;
 
         level.push(node.val);
 
