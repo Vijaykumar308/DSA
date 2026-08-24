@@ -17,6 +17,7 @@ while(q.length > 0) {
         let node = q.shift(); // remove from queue;
 
         level.push(node.val);
+        
 
         if(node.left !== null) {
             q.push(node.left);
