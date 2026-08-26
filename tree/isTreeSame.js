@@ -1,7 +1,7 @@
 import {BinaryTree, TreeTraversal} from "../dsalib/src/index.js";
 
-const node = BinaryTree.fromArray([1,2,2,3,4,4,3]);
-// const node = BinaryTree.fromArray([1,2,2,null,3,null,3]);
+// const node = BinaryTree.fromArray([1,2,2,3,4,4,3]);
+const node = BinaryTree.fromArray([1,2,2,null,3,null,3]);
 node.prettyPrint();
 
 function isSame(r1, r2) {
