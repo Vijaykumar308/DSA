@@ -8,7 +8,6 @@ tree.prettyPrint();
 
 const q = [tree.root];
 
-
 const res = [];
 let is_left_to_right = true;
 
