@@ -4,6 +4,7 @@ const tree = BinaryTree.fromArray([1,2,3,4,5,6,7]);
 
 tree.prettyPrint();
 
+
 // level order traversal from right to left;
 const q = [tree.root];
 
